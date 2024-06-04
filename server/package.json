@@ -1,0 +1,23 @@
+{
+  "name": "lily",
+  "version": "1.0.0",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "pkg": {
+    "scripts": "*.js",
+    "assets": [
+      "index.html",
+      "Fonts/**/*",
+      "vs/**/*"
+    ],
+    "targets": [
+      "node22"
+    ]
+  }
+}
